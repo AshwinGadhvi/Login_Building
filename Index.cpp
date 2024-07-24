@@ -111,4 +111,30 @@ int main()
     // 321
     // 21
     // 1
+
+    //pattern 7
+    // for(int i=0;i<Row;i++)
+    // {
+    //         for(int j=0;j<Column-i-1;j++)
+    //         {
+    //             cout<<"-";
+    //         }
+    //         //star
+    //         for(int j=0;j<(2*i)+1;j++)
+    //         {
+    //             cout<<"*";
+    //         }
+    //         //space
+    //         for(int j=0;j<Column-i-1;j++)
+    //         {
+    //             cout<<"-";
+    //         }
+    //     cout<<endl;
+    //     }
+        //output 7
+        // ----*----
+        // ---***---
+        // --*****--
+        // -*******-
+        // *********
 }
