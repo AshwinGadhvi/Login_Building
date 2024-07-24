@@ -54,6 +54,7 @@ int main()
     //     cout<<endl;
     // }
 
+    //output 3rd
     // 1
     // 12
     // 123
@@ -70,9 +71,27 @@ int main()
     //     cout<<endl;
     // }
 
+    //output 4th
     // 1
     // 22
     // 333
     // 4444
     // 55555
+    
+    //pattern 5
+    // for(int i=Row;i>0;i--)
+    // {
+    //     for(int j=i;j>0;j--)
+    //     {
+    //         cout<<"*";
+    //     }
+    //     cout<<endl;
+    // }
+
+    //output 5th
+    // *****
+    // ****
+    // ***
+    // **
+    // *
 }
