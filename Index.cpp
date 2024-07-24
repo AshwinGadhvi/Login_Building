@@ -10,6 +10,7 @@ int main()
     cin>>Row;
     cout<<"Enter the number of columns: ";
     cin>>Column;
+    //Pattern 1
     // for(int i=0;i<Row;i++)
     // {
     //     for(int j=0;j<Column;j++)
@@ -26,4 +27,20 @@ int main()
     // *****
     // *****
 
+    //Pattern 2
+    // for(int i=0;i<Row;i++)
+    // {
+    //     for(int j=0;j<=i;j++)
+    //     {
+    //         cout<<"*";
+    //     }
+    //     cout<<endl;
+    // }
+
+    //output of 2'nd
+    // *
+    // **
+    // ***
+    // ****
+    // *****
 }
