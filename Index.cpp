@@ -105,36 +105,64 @@ int main()
     //     cout << endl;
     // }
 
-    //output 6th
-    // 54321
-    // 4321
-    // 321
-    // 21
-    // 1
+    // output 6th
+    //  54321
+    //  4321
+    //  321
+    //  21
+    //  1
 
-    //pattern 7
+    // pattern 7
+    //  for(int i=0;i<Row;i++)
+    //  {
+    //          for(int j=0;j<Column-i-1;j++)
+    //          {
+    //              cout<<"-";
+    //          }
+    //          //star
+    //          for(int j=0;j<(2*i)+1;j++)
+    //          {
+    //              cout<<"*";
+    //          }
+    //          //space
+    //          for(int j=0;j<Column-i-1;j++)
+    //          {
+    //              cout<<"-";
+    //          }
+    //      cout<<endl;
+    //      }
+    // output 7
+    //  ----*----
+    //  ---***---
+    //  --*****--
+    //  -*******-
+    //  *********
+    // pattern 8
+
     // for(int i=0;i<Row;i++)
     // {
-    //         for(int j=0;j<Column-i-1;j++)
-    //         {
-    //             cout<<"-";
-    //         }
-    //         //star
-    //         for(int j=0;j<(2*i)+1;j++)
-    //         {
-    //             cout<<"*";
-    //         }
-    //         //space
-    //         for(int j=0;j<Column-i-1;j++)
-    //         {
-    //             cout<<"-";
-    //         }
-    //     cout<<endl;
+    //     //space
+    //     for(int j=1;j<=i;j++)
+    //     {
+    //         cout<<"-";
     //     }
-        //output 7
-        // ----*----
-        // ---***---
-        // --*****--
-        // -*******-
-        // *********
+    //     //star
+    //     for(int j=0;j<(2*Row)-(i*2)-1;j++)
+    //     {
+    //         cout<<"*";
+    //     }
+    //     //space
+    //     for(int j=1;j<=i;j++)
+    //     {
+    //         cout<<"-";
+    //     }
+    //     cout<<endl;
+    // }
+
+    //output 8th
+    // *********
+    // -*******-
+    // --*****--
+    // ---***---
+    // ----*----
 }
