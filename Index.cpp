@@ -214,34 +214,58 @@ int main()
     //  ---***---
     //  ----*----
 
-    //Pattern 9
-    for(int i=0;i<Row;i++)
-    {
-        for(int j=0;j<i;j++)
-        {
-            cout<<"*";
-        }
-        cout<<endl;
-    }
-    for(int i=0;i<Row;i++)
-    {
-        for(int j=Column;j>i;j--)
-        {
-            cout<<"*";
-        }
-        cout<<endl;
-    }
-    
-    //output 
-    // *
-    // **
-    // ***
-    // ****
-    // *****
-    // ****
-    // ***
-    // **
-    // *
+    // Pattern 9
+    //  for(int i=0;i<Row;i++)
+    //  {
+    //      for(int j=0;j<i;j++)
+    //      {
+    //          cout<<"*";
+    //      }
+    //      cout<<endl;
+    //  }
+    //  for(int i=0;i<Row;i++)
+    //  {
+    //      for(int j=Column;j>i;j--)
+    //      {
+    //          cout<<"*";
+    //      }
+    //      cout<<endl;
+    //  }
 
-    //    
+    // output
+    //  *
+    //  **
+    //  ***
+    //  ****
+    //  *****
+    //  ****
+    //  ***
+    //  **
+    //  *
+
+    // // Pattern 10
+    // int start = 1;
+    // for (int i = 1; i <= Row; i++)
+    // {
+    //     if (i % 2 == 0)
+    //     {
+    //         start = 1;
+    //     }
+    //     else
+    //     {
+    //         start = 0;
+    //     }
+    //     for (int j = 1; j <= i; j++)
+    //     {
+    //         cout << start;
+    //         start = 1 - start;
+    //     }
+    //     cout << endl;
+    // }
+    //output
+    // 0
+    // 10
+    // 010
+    // 1010
+    // 01010
 }
