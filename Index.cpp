@@ -262,10 +262,39 @@ int main()
     //     }
     //     cout << endl;
     // }
-    //output
+    // output
     // 0
     // 10
     // 010
     // 1010
     // 01010
+
+    // pattern 11
+
+    // int space = 2 *( Row - 1);
+    // for (int i = 1; i <= Row; i++)
+    // {
+    //     for (int j = 1; j <= i; j++)
+    //     {
+    //         cout << j;
+    //     }
+    //     for (int j = 1; j <= space; j++)
+    //     {
+    //         cout << " ";
+    //     }
+    //     for (int j = i; j >= 1; j--)
+    //     {
+    //         cout << j;
+    //     }
+
+    //     cout << endl;
+    //     space-=2;
+    // }
+
+    // output
+    // 1        1
+    // 12      21
+    // 123    321
+    // 1234  4321
+    // 1234554321
 }
