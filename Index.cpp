@@ -1,5 +1,6 @@
 #include <iostream>
 #include <conio.h>
+#include<algorithm>
 
 using namespace std;
 
@@ -297,4 +298,24 @@ int main()
     // 123    321
     // 1234  4321
     // 1234554321
+
+    //pattern 12
+
+    //     for(int i=65;i<Row;i++)
+    // {
+    //     for(int j=65;j<=i;j++)
+    //     {
+    //         cout<<(char)j;
+    //     }
+    //     cout<<endl;
+    // }
+
+    //output
+    // A
+    // AB
+    // ABC
+    // ABCD
+    // ABCDE
+    // ABCDEF
+
 }
