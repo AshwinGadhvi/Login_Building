@@ -38,13 +38,32 @@ string convertToBinary(int n)
     reverse(str.begin(),str.end());
     return str;
 }
+int setBitCheck(int n)
+{
+    int l_digit=0;
+    int count=0;
+    while(n!=0)
+    {
+        l_digit = n%10;
+        if(l_digit==1)
+        {
+            count++;
+        }
+        n=n/10;
+    }
+    return count;
+}
+
 int main()
 {
-    int n,n2;
+    int n,n2,n3;
     cout<<"Enter Number : ";
     cin>>n;
     cout<<convertToBinary(n)<<endl;
     cout<<"Enter Binary Number : ";
     cin>>n2;
-    cout<<convertToDecimal(n2);
+    cout<<convertToDecimal(n2)<<endl;
+    cout<<"Enter Binary Number : ";
+    cin>>n3;
+    cout<<setBitCheck(n3);
 }
