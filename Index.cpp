@@ -318,4 +318,18 @@ int main()
     // ABCDE
     // ABCDEF
 
+    for(int i=0;i<Row;i++)
+    {
+        for(int j=0;j<Row;j++)
+        {
+            if((i==(Row/2) || j==(Row/2)))
+            {
+                cout<<"* ";
+            }
+            else{
+                cout<<"- ";
+            }
+        }
+        cout<<endl;
+    }
 }
