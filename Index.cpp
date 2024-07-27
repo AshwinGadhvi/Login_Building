@@ -322,7 +322,7 @@ int main()
     {
         for(int j=0;j<Row;j++)
         {
-            if((i==(Row/2) || j==(Row/2)))
+            if((i==(Row/2) || j==(Row/2)) || (i==Column || j>(Row/2)))
             {
                 cout<<"* ";
             }
