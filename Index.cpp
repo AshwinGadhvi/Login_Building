@@ -1,6 +1,6 @@
 #include <iostream>
 #include <conio.h>
-#include<algorithm>
+#include <algorithm>
 
 using namespace std;
 
@@ -299,7 +299,7 @@ int main()
     // 1234  4321
     // 1234554321
 
-    //pattern 12
+    // pattern 12
 
     //     for(int i=65;i<Row;i++)
     // {
@@ -310,26 +310,27 @@ int main()
     //     cout<<endl;
     // }
 
-    //output
-    // A
-    // AB
-    // ABC
-    // ABCD
-    // ABCDE
-    // ABCDEF
+    // output
+    //  A
+    //  AB
+    //  ABC
+    //  ABCD
+    //  ABCDE
+    //  ABCDEF
 
-    for(int i=0;i<Row;i++)
+    for (int i = 0; i < Row; i++)
     {
-        for(int j=0;j<Row;j++)
+        for (int j = 0; j < Row; j++)
         {
-            if((i==(Row/2) || j==(Row/2)) || (i==Column || j>=Column/2))
+            if ((i == (Row / 2) || j == (Row / 2)) || (i == Column || j >= Column / 2))
             {
-                cout<<"* ";
+                cout << "* ";
             }
-            else{
-                cout<<"- ";
+            else
+            {
+                cout << "- ";
             }
         }
-        cout<<endl;
+        cout << endl;
     }
 }
